@@ -1,0 +1,93 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    min-height: 100px;
+    background-color: #EF7C8E;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  .logo1{
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    width: 160px;
+  }
+
+
+  .main{
+    width: 250px;
+    height: 600px;
+    border-radius: 12px;
+    flex-direction: column;
+    display: inline-flex;
+    background-color: #D8A7B1;
+    padding: 0px 30px 45px 30px;
+   border:none;
+   color:black;
+
+
+  }
+
+label{
+  margin:40px;
+  color: #053749;
+}
+
+  .nota{
+    padding: 18px;
+    border-radius: 10px;
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: center;
+    border: none;
+    margin-bottom: 8px;
+  }
+
+
+  .button{
+  background-color: #FAE8E0;
+  border: none;
+  border-radius: 20px;
+  box-shadow: #2E765E 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  touch-action: manipulation;
+
+  }
+
+  .botoes{
+    align-items: center;
+    justify-content: center;
+    position: center;
+    display: grid;
+    margin: 10px;
+    padding: 30px;
+}
+
+
+#result {
+  margin-top: 5px;
+  text-align: center;
+  color: black;
+  font-weight:bold;
+  font-size: 18px;
+}
